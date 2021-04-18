@@ -1,0 +1,40 @@
+@import 'aria';
+@import 'focus-tooltip';
+
+// override
+.carousel-play-pause-button{
+  display: none !important;
+}
+.body{
+  padding-top:35px !important;
+}
+.heroCarousel{
+  height: 680px;
+
+  .left{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    width: 50%;
+    max-width: 710px;
+    position: relative;
+  }
+
+  .right{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    width: 50%;
+    max-width: 710px;
+    position: relative;
+
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+}
